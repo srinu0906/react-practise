@@ -6,7 +6,6 @@ function App() {
     <h1>Hello React</h1>
     <Car/>
     <Car/>
-    <h2>AMAZING DUDE!</h2>
     </>
   );
 }
