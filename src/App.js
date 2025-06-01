@@ -1,11 +1,15 @@
 import './App.css';
-import Car  from './components/car'
+import Header from './components/Header'
+import Footer from './components/Footer'
+// import  {Main}  from './components/Main';
+import { Main } from './components/Body';
+// import Car  from './components/car'
 function App() {
   return (
     <>
-    <h1>Hello React</h1>
-    <Car/>
-    <Car/>
+    <Header/>
+    <Main />
+    <Footer/>
     </>
   );
 }
