@@ -2,13 +2,16 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 // import  {Main}  from './components/Main';
-import { Main } from './components/Body';
+// import { Main } from './components/Body';
 // import Car  from './components/car'
+import { Vote } from './components/Conditionals';
+
 function App() {
   return (
     <>
     <Header/>
-    <Main />
+    {/* <Main /> */}
+    <Vote age={'15'}/>
     <Footer/>
     </>
   );
