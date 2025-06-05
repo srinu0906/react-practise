@@ -5,7 +5,8 @@ import Footer from './components/Footer'
 // import { Main } from './components/Body';
 // import Car  from './components/car'
 // import { Vote } from './components/Conditionals';
-import {Rainbow ,WeekDays}from './components/Lists';
+// import {Rainbow ,WeekDays}from './components/Lists';
+// import { MyForm } from './components/Forms';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
     <Header/>
     {/* <Main /> */}
     {/* <Vote age={'15'}/> */}
-    <Rainbow/>
-    <WeekDays/>
+    {/* <Rainbow/>
+    <WeekDays/> */}
+    {/* <MyForm/> */}
     <Footer/>
     </>
   );
